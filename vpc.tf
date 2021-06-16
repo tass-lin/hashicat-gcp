@@ -7,4 +7,5 @@ module "network" {
   network_name = "gaurav-network"
   project_id = "p-hww6a4y9h4irwjc0hept513xu4ii"
   subnets = "10.100.10.0/24"
+  subnet_region = var.region
 }
